@@ -1,0 +1,29 @@
+{
+  "name": "api-cloudrun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsJohnDev/node-api-cloudrun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/itsJohnDev/node-api-cloudrun/issues"
+  },
+  "homepage": "https://github.com/itsJohnDev/node-api-cloudrun#readme",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/storage": "^7.19.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "multer": "^2.1.1"
+  }
+}
